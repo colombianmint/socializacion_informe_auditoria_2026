@@ -117,6 +117,24 @@
             filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
         }
 
+        /* ===================== CABECERA NOMBRE DE LA EMPRESA ===================== */
+        .company-header {
+            position: fixed;
+            top: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+            pointer-events: none;
+            font-family: var(--display);
+            font-size: 1.1rem;
+            color: var(--oro);
+            letter-spacing: .2em;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
         /* ===================== ESCENARIO ===================== */
         #escenario {
             position: relative;
@@ -834,7 +852,8 @@
             #barra-progreso,
             #indice,
             .logo-header,
-            .logo-header-right {
+            .logo-header-right,
+            .company-header {
                 display: none !important
             }
         }
@@ -852,6 +871,8 @@
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4tQ1-DZRCCzhvzDy3ghx8AZ70LZg3QIRMN__VptBWEBOP2E6e-56LbFGLDOy06PoGYMxkoytMV_aG2Iw3jSbRxm_YbDzu2g3QGcz0x2FWIxtOS-OYr42tYQOEW0gstVN8UiOXHuwtihC83dXr8JQahY1m8t1-5ahYCya8iMTAyLzJrYahwFheYnFYfvbK/w200-h113/CAPTE%202.0%201.png"
             alt="Logo CAPTE 2.0">
     </div>
+
+    <div class="company-header">C.I. Colombian Mint S.A.S.</div>
 
     <div id="barra-progreso"></div>
 
@@ -1355,7 +1376,7 @@
                         de seguimiento nos debe encontrar con estas brechas cerradas.</p>
                 </div>
             </div>
-            <em class="fuente">Canal de dudas: Sistemas Integrados de Gestión — Gloria Díaz (gdiaz@colombianmint.com) / Luis Arango
+            <em class="fuente">Canal de dudas: Sistemas Integrados de Gestión — Luis Arango
                 (larango@colombianmint.com) / Diego Beltrán (dbeltran@colombianmint.com).</em>
         </section>
 
